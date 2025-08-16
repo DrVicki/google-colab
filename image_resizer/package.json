@@ -1,0 +1,38 @@
+{
+  "name": "image-resizer-background-remover",
+  "version": "1.0.0",
+  "description": "A modern web-based image processing application with resizing and background removal capabilities",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "image",
+    "resizer",
+    "background-removal",
+    "canvas",
+    "javascript",
+    "web-app",
+    "image-processing"
+  ],
+  "author": "Image Resizer Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/image-resizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/image-resizer/issues"
+  },
+  "homepage": "https://github.com/yourusername/image-resizer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
