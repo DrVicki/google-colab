@@ -30,3 +30,16 @@ To start working with Google Collaboratory Notebook you first need to log in to 
 On opening the website you will see a pop-up containing the following tabs;
 
 ![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab1.webp)
+
+- **EXAMPLES**: Contain a number of Jupyter notebooks of various examples.
+- **RECENT**: Jupyter notebook you have recently worked with.
+- **GOOGLE DRIVE**: Jupyter notebook in your google drive.
+- **GITHUB**: You can add Jupyter notebook from your GitHub but you first need to connect Colab with GitHub.
+- **UPLOAD**: Upload from your local directory.
+
+## Create Collaboratory (Colab) Notebook
+
+You can also **create a new Jupyter Notebook** by clicking New Python3 Notebook or New Python2 Notebook at the bottom right corner.
+
+### Notebook's Description
+
