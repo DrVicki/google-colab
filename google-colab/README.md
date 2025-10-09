@@ -43,3 +43,112 @@ You can also **create a new Jupyter Notebook** by clicking New Python3 Notebook 
 
 ### Notebook's Description
 
+
+
+After creating a new notebook, you will be creating a Jupyter notebook with fikle name ```Untitled0.ipynb``` and save it to your google drive in a folder you will name **Colab Notebooks**.
+
+Now it is essentially a Jupyter Notebook, so all commands of Jupyter Notebooks will work here. 
+
+- Note: you can refer to the details in Getting Started with [Jupyter Notebook](https://www.geeksforgeeks.org/python/getting-started-with-jupyter-notebook-python/) .
+
+**Let's talk about what is different here**:
+
+**Change Runtime Environment**: Click the **"Runtime"** dropdown menu. Select **"Change runtime type"** . Select python2 or 3 from the **"Runtime type"** dropdown menu.
+
+IMAGE 3
+
+## Use GPU and TPU
+
+Click the **"Runtime"** dropdown menu. Select **"Change runtime type"** . Now select anything(GPU, CPU, None) you want in the **"Hardware accelerator"** dropdown menu.
+
+IMAGE 4
+
+IMAGE 5
+
+### Verify GPU in Colab
+
+```
+import tensorflow as tf
+tf.test.gpu_device_name()
+```
+
+If GPU is connected it will output the following:
+
+```'/device:GPU:0'```
+
+Otherwise, it will output following:
+
+```''```
+
+### Verify TPU
+
+```
+import os
+
+if 'COLAB_TPU_ADDR' not in os.environ:
+  print('Not connected to TPU')
+else:
+  print(&quot;Connected to TPU&quot;)
+  ```
+
+  If GPU is connected it will output following
+
+```Connected to TPU
+```
+
+Otherwise, it will output following:
+
+```Not connected to TPU
+```
+
+## Install Python packages
+
+
+Use can use ```pip``` to install any package. For example:
+
+```! pip install pandas```
+
+## Clone GitHub repos in Google Colab
+
+
+Use the ``git clone`` command. For example:
+
+```
+! git clone https://github.com/souvik3333/Testing-and-Debugging-Tools
+```
+
+## Upload File on Google Colab
+
+
+```from google.colab import files
+uploaded = files.upload()```
+
+Select "Choose file" and upload the file you want. Enable third-party cookies if they are disabled.
+
+IMAGE 6
+
+Then you can save it in a dataframe.
+
+
+```
+import io
+df2 = pd.read_csv(io.BytesIO(uploaded['file_name.csv']))```
+
+
+## Upload File By Mounting Google Drive
+
+To mount your drive inside the "``mntDrive``" folder execute the following;
+
+```
+from google.colab import drive
+drive.mount('/mntDrive')```
+
+Then you’ll see a link, click on the link, then allow access, copy the code that pops up, and paste it at **"Enter your authorization code:"**. Now to see all data in your google drive you need to execute the following:
+
+
+
+
+
+
+
+
