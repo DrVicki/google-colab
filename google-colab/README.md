@@ -88,18 +88,15 @@ import os
 if 'COLAB_TPU_ADDR' not in os.environ:
   print('Not connected to TPU')
 else:
-  print(&quot;Connected to TPU&quot;)
-  ```
+  print(&quot;Connected to TPU&quot;)```
 
   If GPU is connected it will output following
 
-```Connected to TPU
-```
+```Connected to TPU```
 
 Otherwise, it will output following:
 
-```Not connected to TPU
-```
+``Not connected to TPU```
 
 ## Install Python packages
 
