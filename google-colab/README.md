@@ -88,7 +88,8 @@ import os
 if 'COLAB_TPU_ADDR' not in os.environ:
   print('Not connected to TPU')
 else:
-  print(&quot;Connected to TPU&quot;)```
+  print(&quot;Connected to TPU&quot;)
+```
 
   If GPU is connected it will output following
 
@@ -96,7 +97,7 @@ else:
 
 Otherwise, it will output following:
 
-``Not connected to TPU```
+```Not connected to TPU```
 
 ## Install Python packages
 
@@ -110,15 +111,14 @@ Use can use ```pip``` to install any package. For example:
 
 Use the ``git clone`` command. For example:
 
-```
-! git clone https://github.com/souvik3333/Testing-and-Debugging-Tools
-```
+```! git clone https://github.com/souvik3333/Testing-and-Debugging-Tools```
 
 ## Upload File on Google Colab
 
 
 ```from google.colab import files
-uploaded = files.upload()```
+uploaded = files.upload
+```
 
 Select "Choose file" and upload the file you want. Enable third-party cookies if they are disabled.
 
@@ -129,16 +129,17 @@ Then you can save it in a dataframe.
 
 ```
 import io
-df2 = pd.read_csv(io.BytesIO(uploaded['file_name.csv']))```
+df2 = pd.read_csv(io.BytesIO(uploaded['file_name.csv']))
+```
 
 
 ## Upload File By Mounting Google Drive
 
 To mount your drive inside the "``mntDrive``" folder execute the following;
 
+```from google.colab import drive
+drive.mount('/mntDrive'
 ```
-from google.colab import drive
-drive.mount('/mntDrive')```
 
 Then you’ll see a link, click on the link, then allow access, copy the code that pops up, and paste it at **"Enter your authorization code:"**. Now to see all data in your google drive you need to execute the following:
 
