@@ -29,4 +29,4 @@ To start working with Google Collaboratory Notebook you first need to log in to 
 
 On opening the website you will see a pop-up containing the following tabs;
 
-![]{https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab1.webp}
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab1.webp)
