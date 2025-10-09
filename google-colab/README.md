@@ -24,3 +24,9 @@ Google Colab offers several benefits that make it a popular choice among data sc
 # Get Started with Google Colab
 
 To start working with Google Collaboratory Notebook you first need to log in to your Google account, then go to this link https://colab.research.google.com// .
+
+## Open Collaboratory (Colab) Notebook
+
+On opening the website you will see a pop-up containing the following tabs;
+
+![]{}
