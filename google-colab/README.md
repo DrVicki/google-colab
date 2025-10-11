@@ -143,7 +143,45 @@ drive.mount('/mntDrive'
 
 Then you’ll see a link, click on the link, then allow access, copy the code that pops up, and paste it at **"Enter your authorization code:"**. Now to see all data in your google drive you need to execute the following:
 
+``! ls '/mntDrive/My Drive&quot'``
 
+
+
+
+IMAGE 7
+
+## File Hierarchy In Google Colab
+
+You can also see the file hierarchy by clicking ">" at the top left below the control buttons (CODE, TEXT, CELL).
+
+IMAGE 8
+
+IMAGE -8
+
+## Download Files from Google Colab
+
+
+Let's say you want to download "``file_name.csv``". You can copy the file to your google drive (In "data" folder; you need to create the "data" folder in google drive) by executing this:
+
+```
+cp file_name.csv &quot;/mntDrive/My Drive/data/renamed_file_name.csv&quot;
+```
+
+The file will be saved in the ``data`` folder with the "``renamed_file_name.csv``" name. Now you can directly download from there, Or, you can just open the file hierarchy and right-clicking will give a download option. 
+
+**Download Jupyter Notebook**: Click the "File" dropdown menu at the top left corner. Choose "``download .ipynb``" or "``download .py``"
+
+IMAGE 9
+
+**Share Jupyter Notebook**: You can share your notebook by adding others' email addresses or by creating a shareable link.
+
+IMAGE 10
+
+IMAGE 11
+
+## Conclusion
+
+In conclusion, Google Colab stands out as a versatile and accessible platform for Python coding.
 
 
 
