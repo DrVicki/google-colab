@@ -55,7 +55,7 @@ Now it is essentially a Jupyter Notebook, so all commands of Jupyter Notebooks w
 
 **Change Runtime Environment**: Click the **"Runtime"** dropdown menu. Select **"Change runtime type"** . Select python2 or 3 from the **"Runtime type"** dropdown menu.
 
-[](github.com/DrVicki/google-colab/blob/main/google-colab/images/colab3.webp)
+[](google-colab/images/colab3.webp)
 
 ## Use GPU and TPU
 
