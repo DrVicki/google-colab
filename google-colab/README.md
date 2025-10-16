@@ -41,6 +41,8 @@ On opening the website you will see a pop-up containing the following tabs;
 
 You can also **create a new Jupyter Notebook** by clicking New Python3 Notebook or New Python2 Notebook at the bottom right corner.
 
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab3.webp)
+
 ### Notebook's Description
 
 
@@ -55,15 +57,17 @@ Now it is essentially a Jupyter Notebook, so all commands of Jupyter Notebooks w
 
 **Change Runtime Environment**: Click the **"Runtime"** dropdown menu. Select **"Change runtime type"** . Select python2 or 3 from the **"Runtime type"** dropdown menu.
 
-[](google-colab/images/colab3.webp)
+[](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab3.webp)
+
+
 
 ## Use GPU and TPU
 
 Click the **"Runtime"** dropdown menu. Select **"Change runtime type"** . Now select anything(GPU, CPU, None) you want in the **"Hardware accelerator"** dropdown menu.
 
-IMAGE 4
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab4.webp)
 
-IMAGE 5
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab5.webp)
 
 ### Verify GPU in Colab
 
@@ -122,7 +126,7 @@ uploaded = files.upload
 
 Select "Choose file" and upload the file you want. Enable third-party cookies if they are disabled.
 
-IMAGE 6
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab6.webp)
 
 Then you can save it in a dataframe.
 
@@ -147,16 +151,15 @@ Then you’ll see a link, click on the link, then allow access, copy the code th
 
 
 
-
-IMAGE 7
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab7.webp)
 
 ## File Hierarchy In Google Colab
 
 You can also see the file hierarchy by clicking ">" at the top left below the control buttons (CODE, TEXT, CELL).
 
-IMAGE 8
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab8.webp)
 
-IMAGE -8
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab-8.webp)
 
 ## Download Files from Google Colab
 
@@ -171,13 +174,13 @@ The file will be saved in the ``data`` folder with the "``renamed_file_name.csv`
 
 **Download Jupyter Notebook**: Click the "File" dropdown menu at the top left corner. Choose "``download .ipynb``" or "``download .py``"
 
-IMAGE 9
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab9.webp)
 
 **Share Jupyter Notebook**: You can share your notebook by adding others' email addresses or by creating a shareable link.
 
-IMAGE 10
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab10.webp)
 
-IMAGE 11
+![](https://github.com/DrVicki/google-colab/blob/main/google-colab/images/colab11.webp)
 
 ## Conclusion
 
